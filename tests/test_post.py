@@ -1,7 +1,9 @@
 from http import HTTPStatus
 
 import pytest
+
 from django.db.utils import IntegrityError
+
 from posts.models import Post
 
 
